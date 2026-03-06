@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "movable-lodestones",
+	"version": "${version}",
+	"name": "Movable Lodestones",
+	"description": "A very simple mod that allows lodestones to be pushed by pistons",
+	"authors": [
+		"UrBoiTom"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/movable-lodestones/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"urboitom.movablelodestones.MovableLodestones"
+		]
+	},
+	"mixins": [
+		"movable-lodestones.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
