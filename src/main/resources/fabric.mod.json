@@ -8,8 +8,8 @@
 		"UrBoiTom"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/5ZEQPnqC",
+		"sources": "https://github.com/UrBoiTom/movable-lodestones"
 	},
 	"license": "CC BY-NC-SA 4.0",
 	"icon": "assets/movable-lodestones/icon.png",
@@ -24,7 +24,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.11",
+		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
